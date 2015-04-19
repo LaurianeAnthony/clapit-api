@@ -1,0 +1,27 @@
+{
+    "require": {
+        "silex/silex": "~1.2",
+        "twig/twig": "~1.18",
+        "symfony/twig-bridge": "~2.6",
+        "symfony/config": "~2.6",
+        "symfony/form": "2.6.6",
+        "symfony/validator": "2.6.6",
+        "symfony/locale": "~2.6",
+        "symfony/translation": "~2.6",
+        "doctrine/dbal": "~2.5",
+        "symfony/yaml": "~2.6",
+        "igorw/config-service-provider": "~1.2",
+        "swiftmailer/swiftmailer": "~5.4",
+        "dflydev/doctrine-orm-service-provider": "1.0.6",
+        "jdesrosiers/silex-jms-serializer-provider": "0.1.1"
+    },
+    "autoload": {
+        "psr-0": { "Clapit" : "src/" }
+    },
+    "authors": [
+        {
+            "name": "Hugo Gresse",
+            "email": "hugo.gresse@gmail.com"
+        }
+    ]
+}

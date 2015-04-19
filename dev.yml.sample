@@ -1,0 +1,26 @@
+config.global:
+    debug: true
+    website : http://www.midipile.com/
+    dealPrefix : offre
+config.database:
+    dbname: midipile
+    host: 127.0.0.1
+    user: midipile
+    password: 
+    charset: UTF8
+api:
+    version : 1
+    secret  : "9,(3~[][<'{+5#}"
+    cacheDir : /cache/
+config.email:
+    senderEmail       :
+        name : Clapit.com
+        email : contact@midipile.com
+swiftmailer.options:
+    host : in.mailjet.com
+    port        : 465
+    username    : 0f45461298f03d50457beb1b11a9505f
+    password    : 9b70af52dcbe59a4a86b651035c44452
+    encryption  : ssl
+    spool       :
+        type :   memory
